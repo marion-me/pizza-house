@@ -45,7 +45,61 @@
         <div id="order">
             <h1>Place your order here!</h1>
             <div class="book"></div>
-           <div class="col text-center"></div> 
+            <div class="col text-center"></div>
+            <div class="row">
+                <div class="col-md-4 mx-auto py-2">
+                    <form id="myForm">
+                        <div class="form-group">
+                            <label for="sel1">Pizza type</label>
+                            <select class="form-control" id="type">
+                                <option>Chicken Hawaiian</option>
+                                <option>Burger</option>
+                                <option>Deluxe</option>
+                                <option>Chicken Macon BBQ</option>
+                                <option>Veg Feast</option>
+                                <option>Roast veg </option>
+                                <option>Pork</option>
+                                <option>Spice Boerewes</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="sel1">Select crust:</label>
+                            <select class="form-control" id="crust">
+                              <option>Cripsy</option>
+                              <option>Stuffed</option>
+                              <option>Gluten-free</option>
+                              <option>Flatbread Crust</option>
+                              <option>Focaccia</option>
+                            </select>
+                          </div>
+                          <div class="form-group">
+                            <label for="sel1">Select topping:</label>
+                            <select class="form-control" id="top">
+                              <option>Pepperoni</option>
+                              <option>Green peppers</option>
+                              <option>onions</option>
+                              <option>Sausage</option>
+                              <option>Extra cheese</option>
+                              <option>Mushrooms</option>
+                              <option>Bacon</option>
+                            </select>
+                          </div>
+                          <div class="form-group">
+                            <label for="sel1">Select size:</label>
+                            <select class="form-control" id="size">
+                              <option value="1">Large-@-1200</option>
+                              <option value="2">Medium-@-900</option>
+                              <option value="3">Small-@-650</option>
+                            </select>
+                          </div>
+                          <div class="form-group" required>
+                            <label for="sel1">Quantity:</label>
+                        
+                            <input type="number" id="qty" class="form-control" min="1" required>
+                            
+                          </div>
+                    </form>
+                </div>
             </div>
         </div>    
     </body>
