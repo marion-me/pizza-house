@@ -1,0 +1,47 @@
+.land{
+    background-image:url("../images/p1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:95vh;
+    }
+    .landoverlay{
+    background-color:transparent;
+    }
+    nav ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color:rgba(173, 105, 16, 0.829);
+      }
+      nav{
+        position:fixed;
+        /* float: right; */
+        padding-left: 70%;
+      }
+      
+      li {
+        float: right;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      li a:hover {
+        background-color:brown;
+      }
+      .content p{
+        color:whitesmoke;
+        font-weight: bolder;
+        font-size: 30px;
+        font-family: 'Lobster Two', cursive;
+       }
+       .come h3{
+         padding-top: 3%;
+         padding-left: 8%;
+       } 
