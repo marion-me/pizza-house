@@ -1,106 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>My-Place</title>
-        <link rel="stylesheet" href="css/bootstrap.css">
-        <link rel="stylesheet" href="js/bootstrap.js">
-        <link rel="stylesheet" href="css/styles.css">
-    </head>
-    <body>
-        <div class="land">
-            <div id="home">
-              <nav>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My-Place</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="js/bootstrap.js">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="land">
+        <div id="home">
+            <nav>
                 <ul>
-                  <li><a href="#contact">contact</a></li>
-                  <li><a href="#order">Order</a></li>
-                  <li><a href="#menu">Menu</a></li>
-                  <li><a href="#about">About</a></li>
-                  <li><a href="#home">Home</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <li><a href="#order">Order</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#home">Home</a></li>
                 </ul>
-              </nav>
-            </div>
-            </div>
-            <div id="about">
+            </nav>
+        </div>
+    </div>
+    <div id="about">
         <h1>HUNGRY BABY SLICE</h1>
         <p>Hungry baby slice is an up-comming pizza house in kenya.</p>
         <p>Our innovation and creativity has enabled us to offer the widest range of pizzas allowing our customers to choose from our range of classic, favorite, signature and something special pizzas</p>
         <p>Hungry baby slice Pizza gives each and every customer quality and value for their money.</p>
         <p>All walks of life are welcomed.</p>
-        <div id="contact">
-            <form id="contactform">
-              <label for="name">Name</label>
-              <input type="text" id="name" name="name" required="">
-              <label for="email">E-mail</label>
-              <input type="text" id="email" name="email" required="">
-              <label for="message">Message</label>
-              <textarea name="message" id="message"></textarea>
-              <input type="submit" value="submit">
-            </form>
-          </div>
-        </div>
-            </div>
-        <div id="order">
-            <h1>Place your order here!</h1>
-            <div class="book"></div>
-            <div class="col text-center"></div>
+    </div>
+    <div id="menu">
+        <h2>MENU</h2>
+        <div class="container">
             <div class="row">
-                <div class="col-md-4 mx-auto py-2">
-                    <form id="myForm">
-                        <div class="form-group">
-                            <label for="sel1">Pizza type</label>
-                            <select class="form-control" id="type">
-                                <option>Chicken Hawaiian</option>
-                                <option>Burger</option>
-                                <option>Deluxe</option>
-                                <option>Chicken Macon BBQ</option>
-                                <option>Veg Feast</option>
-                                <option>Roast veg </option>
-                                <option>Pork</option>
-                                <option>Spice Boerewes</option>
-                            </select>
+                <div class="col-md-3">
+                    <h3>Chicken Hawaiian</h3>
+                    <img src="images/p2.jpeg">
+                    <div class="text">
+                        <p><strong>@ksh800</strong></p>
+                    </div>
+                    <div class="col-md-3">
+                        <h3>Cheese Burger</h3>
+                        <img src="images/p3.jpeg">
+                        <div class="text">
+                            <p><strong>@ksh650</strong></p>
                         </div>
-                        <div class="form-group">
-                            <label for="sel1">Select crust:</label>
-                            <select class="form-control" id="crust">
-                              <option>Cripsy</option>
-                              <option>Stuffed</option>
-                              <option>Gluten-free</option>
-                              <option>Flatbread Crust</option>
-                              <option>Focaccia</option>
-                            </select>
-                          </div>
-                          <div class="form-group">
-                            <label for="sel1">Select topping:</label>
-                            <select class="form-control" id="top">
-                              <option>Pepperoni</option>
-                              <option>Green peppers</option>
-                              <option>onions</option>
-                              <option>Sausage</option>
-                              <option>Extra cheese</option>
-                              <option>Mushrooms</option>
-                              <option>Bacon</option>
-                            </select>
-                          </div>
-                          <div class="form-group">
-                            <label for="sel1">Select size:</label>
-                            <select class="form-control" id="size">
-                              <option value="1">Large-@-1200</option>
-                              <option value="2">Medium-@-900</option>
-                              <option value="3">Small-@-650</option>
-                            </select>
-                          </div>
-                          <div class="form-group" required>
-                            <label for="sel1">Quantity:</label>
-                        
-                            <input type="number" id="qty" class="form-control" min="1" required>
-                            
-                          </div>
-                    </form>
-                </div>
-            </div>
-        </div>    
-    </body>
+                        <div class="col-md-3">
+                            <h3>Meat Deluxe</h3>
+                            <img src="images/p4.jpeg">
+                            <div class="text">
+                                <p><strong>@ksh700</strong></p>
+                            </div>
+                            <div class="col-md-3">
+                                <h3>Veg Feast</h3>
+                                <img src="images/p5.jpeg">
+                                <div class="text">
+                                    <p><strong>@ksh600</strong></p>
+                                </div>
+                                <div class="col-md-3">
+                                    <h3>Roast Veg and Feta</h3>
+                                    <img src="images/p6.jpeg">
+                                    <div class="text">
+                                        <p><strong>@ksh700</strong></p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <h3>Spice Boerewers</h3>
+                                        <img src="images/p7.jpeg">
+                                        <div class="text">
+                                            <p><strong>@ksh750</strong></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="order">
+                            <P>Place your order here!</P>
+                            <div class="book"></div>
+                            <div class="col text-center"></div>
+                            <div class="row">
+                                <div class="col-md-4 mx-auto py-2">
+                                    <form id="myForm">
+                                        <div class="form-group">
+                                            <label for="sel1">Pizza type</label>
+                                            <select class="form-control" id="type">
+                                                <option>Chicken Hawaiian</option>
+                                                <option>Burger</option>
+                                                <option>Deluxe</option>
+                                                <option>Chicken Macon BBQ</option>
+                                                <option>Veg Feast</option>
+                                                <option>Roast veg </option>
+                                                <option>Pork</option>
+                                                <option>Spice Boerewes</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="sel1">Select crust:</label>
+                                            <select class="form-control" id="crust">
+                                                <option>Cripsy</option>
+                                                <option>Stuffed</option>
+                                                <option>Gluten-free</option>
+                                                <option>Flatbread Crust</option>
+                                                <option>Focaccia</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="sel1">Select topping:</label>
+                                            <select class="form-control" id="top">
+                                                <option>Pepperoni</option>
+                                                <option>Green peppers</option>
+                                                <option>onions</option>
+                                                <option>Sausage</option>
+                                                <option>Extra cheese</option>
+                                                <option>Mushrooms</option>
+                                                <option>Bacon</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="sel1">Select size:</label>
+                                            <select class="form-control" id="size">
+                                                <option value="1">Large-@-1200</option>
+                                                <option value="2">Medium-@-900</option>
+                                                <option value="3">Small-@-650</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group" required>
+                                            <label for="sel1">Quantity:</label>
+
+                                            <input type="number" id="qty" class="form-control" min="1" required>
+
+                                        </div>
+                                </div>
+                                <div class="form-group" required="">
+                                    <label for="sel1">Delivery option:</label>
+                                    <select class="form-control" id="pick">
+                                        <option value="1">Self pick up</option>
+                                        <option value="2">Delivered</option>
+
+                                    </select>
+                                </div>
+                                <div class="form-group">
+
+                                    <button type="submit" class="btn btn-danger btn-block">checkout</button>
+
+                                </div>
+                                </form>
+                                <div id="contact">
+                                    <form id="contactform">
+                                        <h1>CONTACTS</h1>
+                                        <label for="name">Name</label>
+                                        <input type="text" id="name" name="name" required="">
+                                        <label for="email">E-mail</label>
+                                        <input type="text" id="email" name="email" required="">
+                                        <label for="message">Message</label>
+                                        <textarea name="message" id="message"></textarea>
+                                        <input type="submit" value="submit">
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+                    <script type="text/javascript" src="js/scripts.js"></script>
+</body>
+
 </html>
