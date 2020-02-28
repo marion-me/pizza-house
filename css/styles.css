@@ -45,6 +45,19 @@
          padding-top: 3%;
          padding-left: 8%;
        } 
-       .contacts{
-           background-color: brown;
+       #about{
+         text-align: center;
+         background-color: chocolate;
+         font-style: italic;
+       }
+       #order {
+         text-align: center;
+         color: lightskyblue;
+         font-weight: bolder;
+         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+         background-image: url("../images/p8.jpeg");
+       }
+       #contact{
+         text-align: center;
+         background-color: chocolate;
        }
