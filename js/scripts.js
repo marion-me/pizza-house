@@ -24,14 +24,15 @@ $(document).ready(function () {
         var pizzaType = $("#type").val();
         var pizzaToppings = $("#toppings").val();
         var pizzaCrust = $("#crust").val();
-        var pizzaSize = $parseInt(("#size")).val();
-        var pizzaPICK = $parseInt(("#pick")).val();
+        var pizzaSize = $(parseInt("#size")).val();
+        var pizzaPick = $(parseInt("#pick")).val();
+        var pizzaQuantity = $(parseInt("#qty")).val();
         var price = sizePrice[pizzaSize - 1];
         var DeliveryCost = deliverPrices[pizzaPick - 1];
     
     
-    newOrder = new Order(pizzaType, pizzaSize, pizzaCrust, pizzaToppings);
-    newTotal = new Total(price, pizzaQuantity, DeliveryCost);
+    newOrder = new order(pizzaType, pizzaSize, pizzaCrust, pizzaToppings);
+    newTotal = new total(price, pizzaQuantity, DeliveryCost);
         if (pizzaPick === 1){ 
         ("Your oder is: " + newOrder.fullOrder() + ".continue to see your total bill");
     alert("Your oder is: " + newOrder.fullOrder() + ".continue to see your total bill");
