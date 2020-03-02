@@ -32,9 +32,8 @@ $(document).ready(function () {
     
     newOrder = new Order(pizzaType, pizzaSize, pizzaCrust, pizzaToppings);
     newTotal = new Total(price, pizzaQuantity, DeliveryCost);
-    function getConfirmation() {
         if (pizzaPick === 1){ 
-            confirm("Your oder is: " + newOrder.fullOrder() + ".continue to see your total bill");): true;
+        ("Your oder is: " + newOrder.fullOrder() + ".continue to see your total bill");
     alert("Your oder is: " + newOrder.fullOrder() + ".continue to see your total bill");
     alert("your bill is: " + newTotal.finalTotal() + ".You will receive your pizza in the next few minutes");
     }else{
@@ -45,7 +44,7 @@ $(document).ready(function () {
             alert("your bill is: " + newTotal.finalTotal() + ".You pizza will be delevered in the next 30minutes");
         }
     }
-}
+
 
 });
 
