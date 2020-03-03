@@ -33,15 +33,15 @@ $(document).ready(function () {
     
     newOrder = new order(pizzaType, pizzaSize, pizzaCrust, pizzaToppings);
     newTotal = new total(price, pizzaQuantity, DeliveryCost);
-        if (pizzaPick === 1){ 
-        ("Your oder is: " + newOrder.fullOrder() + ".continue to see your total bill");
-    alert("Your oder is: " + newOrder.fullOrder() + ".continue to see your total bill");
+        if (pizzaPick === 1) { 
+        ("Your order is: " + newOrder.fullOrder() + ".continue to see your total bill");
+    alert("Your order is: " + newOrder.fullOrder() + ".continue to see your total bill");
     alert("your bill is: " + newTotal.finalTotal() + ".You will receive your pizza in the next few minutes");
     }else{
-        if(pizzaPick === 2){
+        if(pizzaPick === 2) {
             prompt("Enter where you want your pizza to be delivered");
             alert("Your order has been received and it will be delivered. Continue to see your order details");
-            alert("Your oder is: " + newOrder.fullOrder() + ".continue to see your total bill");
+            alert("Your order is: " + newOrder.fullOrder() + ".continue to see your total bill");
             alert("your bill is: " + newTotal.finalTotal() + ".You pizza will be delevered in the next 30minutes");
         }
     }
