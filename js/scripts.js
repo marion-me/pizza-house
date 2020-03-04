@@ -54,7 +54,7 @@ $(document).ready(function () {
             if(pizzaPick===2){
                 prompt("Enter where you want your pizza to be delivered");
                 alert("Your order has been received and it will be delivered. Continue to see your order details");
-                alert("Your oder is: " + newOrder.fullOrder() + ".continue to see your total bill");
+                alert("Your order is: " + newOrder.fullOrder() + ".continue to see your total bill");
                 alert("your bill is: " + newTotal.finalTotal() + ".You pizza will be delevered in the next 30minutes");
             }
         }
